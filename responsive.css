@@ -1,0 +1,71 @@
+ @media screen {
+    .second-group h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .second-group p {
+        font-size: 16px;
+        line-height: 24px;
+        margin: 15px 0;
+    }
+    
+    .kart img {
+        width: 100%;
+        height: auto;
+    }
+    .kart {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        padding: 10px;
+    }   
+    .kartlar {
+        flex-direction: column;
+        align-items: center;
+    }
+    .box2 {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+    }
+    .box3 {
+        width: 100%;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+    }
+    .box2, .box3 {
+        margin: 10px 0;
+    }
+    .second-group {
+        padding: 10%;
+    }
+    .second-group {
+        width: 100%;
+        max-width: 600px;
+        margin: auto;
+    }
+    .box2 {
+        width: 100%;
+        max-width: 200px;
+        height: auto;
+    }
+    .box3 {
+        width: 100%;
+        max-width: 100px;
+        height: auto;
+    }
+}
+@media (max-width: 480px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  .overlay h3 {
+    font-size: 14px;
+  }
+  .card p {
+    font-size: 12px;
+  }
+}
